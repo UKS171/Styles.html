@@ -1,2 +1,54 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Styles</title>
+  </head>
+  <body>
+    <div class="container">
+      <ol class="listofitems">
+        <li>Food</li>
+        <li>Laptop</li>
+        <li>Computer</li>
+      </ol>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit nobis
+      quidem. Voluptas officia accusamus nihil omnis. Quaerat consectetur soluta
+      atque voluptate, aut, possimus ad, earum quasi ab amet perspiciatis?
+    </div>
+    <div class="avatar">My Avatar</div>
+    <table style="border-collapse: separate; border-spacing: 1px">
+      <thead>
+        <th>Sr#</th>
+        <th>Name</th>
+        <th>Hobby</th>
+      </thead>
+      <tbody>
+        <tr class="table-row">
+          <td class="cell">1</td>
+          <td class="cell">Kalsoom</td>
+          <td class="cell">Learning</td>
+        </tr>
+        <tr class="table-row">
+          <td class="cell">2</td>
+          <td class="cell">Saeed</td>
+          <td class="cell">Problem Solving</td>
+        </tr>
+        <tr class="table-row">
+          <td class="cell">3</td>
+          <td class="cell">Afshan</td>
+          <td class="cell">Cooking</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="cell">Work</td>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="cell"></div>
+  </body>
+</html>
